@@ -48,7 +48,7 @@ import org.junit.jupiter.api.Assertions;
 4. Defina uma variável expectedMedia com o valor esperado da média dos dois números passados
 5. Chame o método media() compare o resultado com expectedMedia usando o método assertEquals() de Assertions.
 
-Faria os seguintes teste nesse codigo.
+Farei os seguintes teste nesse codigo.
 - Números inteiros positivos que ja foi feito
 - Números inteiros negativos
 - Números decimais
@@ -56,5 +56,5 @@ Faria os seguintes teste nesse codigo.
 - Números muito grandes
 - Números muito pequenos
 
-Os próximos testes deste exercício ficarão dentro de um outro  [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc1/src/README) untamente com a pasta com os códigos.
+Os próximos testes deste exercício ficarão dentro de um outro  [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc1/src/README) Juntamente com a pasta com os códigos.
 
