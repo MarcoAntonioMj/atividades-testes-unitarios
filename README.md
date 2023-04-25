@@ -56,7 +56,7 @@ Farei os seguintes teste nesse codigo.
 - Números muito grandes
 - Números muito pequenos
 
-Os próximos testes deste exercício ficarão dentro de um outro  [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc1/src/README) Juntamente com a pasta com os códigos.
+Os próximos testes deste exercício ficarão dentro de um outro  [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/tree/main/exerc1) Juntamente com a pasta com os códigos.
 
 ## Alguns aprendizados ao fazer o Exercício de Cálculo de Média
 1. Importância da entrada de dados: o exercício mostrou a importância de se ter uma entrada de dados confiável e tratada, já que uma entrada inválida pode levar a erros na execução do programa.
