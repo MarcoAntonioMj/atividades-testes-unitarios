@@ -23,3 +23,38 @@ Para executar os testes unitários neste projeto, é necessário ter o seguinte 
 
 A IDE ultizada foi o [Visual Studio Code](https://code.visualstudio.com)
 
+## Exercício de Cálculo de Média
+#### Passo a Passo
+- Crie um novo projeto Java em seu ambiente de desenvolvimento integrado (IDE) de sua escolha.
+- Crie uma classe principal chamada "App".
+- Crie uma classe "Calculo" para encapsular o cálculo de média.
+- Defina as variáveis numero1 e numero2 como private na classe "Calculo".
+- Crie métodos getter e setter para as variáveis numero1 e numero2.
+- Crie um construtor na classe "Calculo" que receba dois parâmetros: numero1 e numero2.
+- Implemente o método media na classe "Calculo" que calcula a média entre numero1 e numero2.
+- Na classe "App", instancie um objeto da classe "Calculo", passando os dois números inseridos pelo usuário como parâmetros.
+- Chame o método media na instância de "Calculo" criada e imprima o resultado na tela.
+### Primeito teste 
+1. Crie uma classe de teste Java 
+2. Importe as classes "Calculo", "Test" e "Assertions" usando a seguinte sintaxe:
+```
+package com.marco.myproject;
+import com.marco.myproject.Calculo.Calculo;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
+```
+3. Instancie um objeto da classe "Calculo", passando dois números inteiros positivos como parâmetros.
+4. Defina uma variável expectedMedia com o valor esperado da média dos números passados como parâmetros.
+5. Chame o método media na instância de "Calculo" criada no passo 4 e armazene o resultado em uma variável actualMedia.
+6. Use o método assertEquals de Assertions para verificar se actualMedia é igual a expectedMedia.
+
+Faria os seguintes teste nesse codigo.
+- Números inteiros positivos que ja foi feito
+- Números inteiros negativos
+- Números decimais
+- Números iguais
+- Números muito grandes
+- Números muito pequenos
+Os proximo teste desse exercicio ficara dentro de um outro readme juntamente a pasta com oscodigo.
+
