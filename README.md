@@ -55,5 +55,6 @@ Faria os seguintes teste nesse codigo.
 - Números iguais
 - Números muito grandes
 - Números muito pequenos
-Os proximo teste desse exercicio ficara dentro de um outro readme juntamente a pasta com oscodigo.
+
+Os próximos testes deste exercício ficarão dentro de um outro  [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc1/src/README) untamente com a pasta com os códigos.
 
