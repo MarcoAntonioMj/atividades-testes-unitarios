@@ -45,9 +45,8 @@ import org.junit.jupiter.api.Assertions;
 
 ```
 3. Instancie um objeto da classe "Calculo", passando dois números inteiros positivos como parâmetros.
-4. Defina uma variável expectedMedia com o valor esperado da média dos números passados como parâmetros.
-5. Chame o método media na instância de "Calculo" criada no passo 4 e armazene o resultado em uma variável actualMedia.
-6. Use o método assertEquals de Assertions para verificar se actualMedia é igual a expectedMedia.
+4. Defina uma variável expectedMedia com o valor esperado da média dos dois números passados
+5. Chame o método media() compare o resultado com expectedMedia usando o método assertEquals() de Assertions.
 
 Faria os seguintes teste nesse codigo.
 - Números inteiros positivos que ja foi feito
