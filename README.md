@@ -2,9 +2,9 @@
 
 Este repositório contém um projeto com 4 atividades distintas, cada uma com seus próprios testes unitários.
 
-Atividade 1: O objetivo desta atividade é criar um programa que colete informações do usuário (nome, CPF e idade), verifique se as informações são válidas e, em seguida, imprima esses dados na tela. Além disso, deve ser criado testes unitários para garantir que o programa está funcionando corretamente.
+Atividade 1: O objetivo desta atividade é criar um algoritmo que calcule a média aritmética de dois números informados pelo usuário e, em seguida, apresente o resultado na tela. Além disso, deve ser criado testes unitários para garantir que o programa está funcionando corretamente.
 
-Atividade 2: O objetivo desta atividade é criar um algoritmo que calcule a média aritmética de dois números informados pelo usuário e, em seguida, apresente o resultado na tela. Além disso, deve ser criado testes unitários para garantir que o programa está funcionando corretamente.
+Atividade 2: O objetivo desta atividade é criar um programa que colete informações do usuário (nome, CPF e idade), verifique se as informações são válidas e, em seguida, imprima esses dados na tela. Além disso, deve ser criado testes unitários para garantir que o programa está funcionando corretamente.
 
 Atividade 3: O objetivo desta atividade é criar um programa que leia o preço de um produto informado pelo usuário, acrescente 10% ao valor original e, em seguida, imprima o novo valor na tela. O programa deve verificar se o número informado pelo usuário é válido e, se não for, imprimir uma mensagem de erro. Além disso, deve ser criado testes unitários para garantir que o programa está funcionando corretamente.
 
