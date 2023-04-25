@@ -58,3 +58,14 @@ Farei os seguintes teste nesse codigo.
 
 Os próximos testes deste exercício ficarão dentro de um outro  [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc1/src/README) Juntamente com a pasta com os códigos.
 
+## Alguns aprendizados ao fazer o Exercício de Cálculo de Média
+1. Importância da entrada de dados: o exercício mostrou a importância de se ter uma entrada de dados confiável e tratada, já que uma entrada inválida pode levar a erros na execução do programa.
+
+2. Uso de exceções: o uso de exceções (como a InputMismatchException) pode ser útil para tratar situações inesperadas e prevenir que o programa pare de funcionar.
+
+3. Encapsulamento: a utilização do encapsulamento (com getters e setters) pode ajudar a proteger os dados da classe e facilitar a manutenção do código.
+
+4. Tratamento de valores especiais: o exercício mostrou a importância de se tratar valores especiais, como o caso de soma que ultrapassa o limite máximo, NaN ou valores muito pequenos.
+
+5. Boas práticas de programação: durante o exercício, foram utilizadas diversas boas práticas de programação, como a organização do código em pacotes, a utilização de métodos para realizar operações específicas, e a separação de responsabilidades entre diferentes classes.
+

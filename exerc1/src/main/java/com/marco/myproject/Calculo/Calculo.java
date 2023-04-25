@@ -26,6 +26,19 @@ public class Calculo {
     }
 
     public double media() {
-        return (numero1 + numero2) / 2;
+        double soma = numero1 + numero2;
+        if (Double.isInfinite(soma)) {
+            // Soma ultrapassou o limite máximo, retorna o valor máximo possível
+            System.out.println("O resultado da soma ultrapassou o limite máximo. Retornando o valor máximo possível.");
+            return Double.MAX_VALUE;
+        } else if (Double.isNaN(soma)) {
+            // Soma é NaN, provavelmente devido a um valor NaN de entrada, retorna NaN
+            return Double.NaN;
+        } else if (soma == 0.0) {
+            // Ambos os números são iguais a zero, retorna zero
+            return 0.0;
+        } else {
+            return soma / 2.0;
+        }
     }
 }
