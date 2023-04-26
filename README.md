@@ -69,3 +69,27 @@ Os próximos testes deste exercício ficarão dentro de um outro  [readme](https
 
 5. Boas práticas de programação: durante o exercício, foram utilizadas diversas boas práticas de programação, como a organização do código em pacotes, a utilização de métodos para realizar operações específicas, e a separação de responsabilidades entre diferentes classes.
 
+## Exercício do Cpf
+#### Passo a Passo
+1. Comecei criando um arquivo chamado "Main.java", que contém o método "main" para executar o programa.
+
+2. No "Main.java", criei um objeto Scanner para ler entradas do usuário e declarei três variáveis para armazenar as informações do usuário: "cpf", "nome" e "idade".
+
+3. Em seguida, utilizei a classe "Validador.java" para validar o CPF, nome e idade inseridos pelo usuário, usando o try-catch para lidar com possíveis exceções.
+
+4. Depois, instanciei um objeto "Validador" com as informações válidas do usuário.
+
+5. Por fim, utilizei os métodos "get" para exibir as informações do usuário na tela.
+
+6. Em seguida, criei o arquivo "Validador.java" para implementar a lógica de validação das informações do usuário.
+
+7. Na classe "Validador.java", criei três métodos estáticos para validar o CPF, nome e idade do usuário, lançando uma exceção caso alguma das informações seja inválida.
+
+8. Também criei os métodos "get" e "set" para as informações do usuário.
+
+9. Voltei para o "Main.java" e utilizei os métodos "set" para armazenar as informações válidas do usuário no objeto "Validador".
+
+10. Por fim, utilizei novamente os métodos "get" para exibir as informações do usuário na tela.
+
+Um readme com os teste estara disponivel juntos com os arquivos 
+
