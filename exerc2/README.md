@@ -19,9 +19,4 @@ Foram realizados testes na classe Validador para validar a entrada de dados nos 
 - Teste para verificar se a idade contém caracteres especiais.
 - Teste para verificar se a idade contém números fracionados.
 - Teste para verificar se a idade contém algum tipo de string.
-## Teste validaCPF
-- Teste para verificar se o CPF tem mais de 11 números.
-- Teste para verificar se o CPF tem menos de 11 números.
-- Teste para verificar se o CPF contém caracteres especiais.
--Teste para verificar se o CPF contém algum tipo de string.
-Foram utilizados o método Assertions.assertThrows em conjunto com IllegalArgumentException.class para verificar se os métodos estavam retornando a mensagem correta quando ocorriam erros.
+
