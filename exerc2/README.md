@@ -14,7 +14,7 @@ Foram realizados testes na classe Validador para validar a entrada de dados nos 
 - Teste para verificar se o nome contém caracteres especiais.
 - Teste para verificar se o nome contém algum tipo de string.
 ## Teste validaIdade
--Teste para verificar se a idade é menor que zero.
+- Teste para verificar se a idade é menor que zero.
 - Teste para verificar se a idade é maior que 120.
 - Teste para verificar se a idade contém caracteres especiais.
 - Teste para verificar se a idade contém números fracionados.
