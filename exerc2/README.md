@@ -16,4 +16,3 @@ Foi utilizado o método Assertions.assertThrows em conjunto com IllegalArgumentE
 - Teste para verificar se o CPF tem menos de 11 números.
 - Teste para verificar se o CPF contém caracteres especiais.
 - Teste para verificar se o CPF contém algum tipo de string.
-Foi utilizado o método Assertions.assertThrows em conjunto com IllegalArgumentException.class para verificar se o método validaCPF estava retornando a mensagem correta quando ocorriam erros.
