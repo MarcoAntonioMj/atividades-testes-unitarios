@@ -94,5 +94,5 @@ Os próximos testes deste exercício ficarão dentro de um outro  [readme](https
 
 10. Por fim, utilizei novamente os métodos "get" para exibir as informações do usuário na tela.
 
-Um readme com os teste estara disponivel juntos com os arquivos 
+Um [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc2/README.md) com os teste estara disponivel juntos com os arquivos 
 
