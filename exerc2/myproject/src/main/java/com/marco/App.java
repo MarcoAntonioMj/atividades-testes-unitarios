@@ -7,9 +7,9 @@ import com.marco.validador.Validador;
 public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int idade;
         String cpf;
         String nome;
+        int idade;
 
         try {
             System.out.print("Olá, digite seu CPF: ");
@@ -18,6 +18,10 @@ public class App {
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
             return;
+        } finally {
+            if (sc.ioException() == null) {
+                sc.close();
+            }
         }
 
         try {
@@ -27,15 +31,28 @@ public class App {
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
             return;
+        } finally {
+            if (sc.ioException() == null) {
+                sc.close();
+            }
         }
 
+        System.out.print("Digite sua idade: ");
+        String input = sc.next();
         try {
-            System.out.print("Digite sua idade: ");
-            idade = sc.nextInt();
-            Validador.validaIdade(idade);
+            double idadeDouble = Double.parseDouble(input);
+            Validador.validaIdade(idadeDouble);
+            idade = (int) idadeDouble;
+        } catch (NumberFormatException e) {
+            System.out.println("Erro: entrada inválida para a idade, por favor insira um número.");
+            return;
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
             return;
+        } finally {
+            if (sc.ioException() == null) {
+                sc.close();
+            }
         }
 
         Validador validador = new Validador(cpf, idade, nome);
@@ -44,8 +61,8 @@ public class App {
         String nomeValido = validador.getNome();
 
         System.out.println("Seu CPF é " + cpfValido);
-        System.out.println("Sua idade é " + idadeValida);
+        System.out.println("Sua idade é " + idadeValida + " Anos");
         System.out.println("Seu nome é " + nomeValido);
-        sc.close();
     }
 }
+

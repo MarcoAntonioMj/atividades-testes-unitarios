@@ -15,24 +15,12 @@ public class Validador {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
     public int getIdade() {
         return idade;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
     public String getNome() {
         return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public static void validaCPF(String cpf) throws IllegalArgumentException {
@@ -41,14 +29,19 @@ public class Validador {
         }
     }
 
-    public static void validaIdade(int idade) throws IllegalArgumentException {
-        if (idade < 0 || idade > 120) {
+    public static void validaIdade(double idade) throws IllegalArgumentException {
+        if (!String.valueOf(idade).matches("\\d+(\\.\\d+)?")) {
+            throw new IllegalArgumentException("Idade inválida");
+        }
+        int idadeInt = (int) Math.round(idade);
+        double parteDecimal = idade - Math.floor(idade);
+        if (idadeInt < 0 || idadeInt > 120 || idade != idadeInt || parteDecimal != 0) {
             throw new IllegalArgumentException("Idade inválida");
         }
     }
 
     public static void validaNome(String nome) throws IllegalArgumentException {
-        if (nome.isEmpty()) {
+        if (nome.isEmpty() || !nome.matches("[a-zA-Z]+")) {
             throw new IllegalArgumentException("Nome inválido");
         }
     }
