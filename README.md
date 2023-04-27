@@ -11,7 +11,10 @@ Atividade 3: O objetivo desta atividade é criar um programa que leia o preço d
 Atividade 4: O objetivo desta atividade é criar um programa que leia uma temperatura em graus Fahrenheit fornecida pelo usuário e a converta para graus Celsius usando a fórmula °C = (°F − 32) / 1,8. O programa deve garantir que o número informado pelo usuário é válido e, se não for, imprimir uma mensagem de erro. Além disso, deve ser criado testes unitários para garantir que o programa está funcionando corretamente.
 
 Para acessar as atividades [clique aqui](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/1_5062547508790559469.pdf)
- 
+## throws IllegalArgumentException e método matches()
+
+[Clique aqui para saber mais sobre cláusula  e sobre o método](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/metodos.pdf)
+
 Os testes unitários foram implementados utilizando Junit. Para executar os testes, é necessário ter requisitos de ambiente configurados.
 
 # Requisitos de ambiente
@@ -68,4 +71,28 @@ Os próximos testes deste exercício ficarão dentro de um outro  [readme](https
 4. Tratamento de valores especiais: o exercício mostrou a importância de se tratar valores especiais, como o caso de soma que ultrapassa o limite máximo, NaN ou valores muito pequenos.
 
 5. Boas práticas de programação: durante o exercício, foram utilizadas diversas boas práticas de programação, como a organização do código em pacotes, a utilização de métodos para realizar operações específicas, e a separação de responsabilidades entre diferentes classes.
+
+## Exercício do Cpf
+#### Passo a Passo
+1. Comecei criando um arquivo chamado "Main.java", que contém o método "main" para executar o programa.
+
+2. No "Main.java", criei um objeto Scanner para ler entradas do usuário e declarei três variáveis para armazenar as informações do usuário: "cpf", "nome" e "idade".
+
+3. Em seguida, utilizei a classe "Validador.java" para validar o CPF, nome e idade inseridos pelo usuário, usando o try-catch para lidar com possíveis exceções.
+
+4. Depois, instanciei um objeto "Validador" com as informações válidas do usuário.
+
+5. Por fim, utilizei os métodos "get" para exibir as informações do usuário na tela.
+
+6. Em seguida, criei o arquivo "Validador.java" para implementar a lógica de validação das informações do usuário.
+
+7. Na classe "Validador.java", criei três métodos estáticos para validar o CPF, nome e idade do usuário, lançando uma exceção caso alguma das informações seja inválida.
+
+8. Também criei os métodos "get" e "set" para as informações do usuário.
+
+9. Voltei para o "Main.java" e utilizei os métodos "set" para armazenar as informações válidas do usuário no objeto "Validador".
+
+10. Por fim, utilizei novamente os métodos "get" para exibir as informações do usuário na tela.
+
+Um readme com os teste estara disponivel juntos com os arquivos 
 
