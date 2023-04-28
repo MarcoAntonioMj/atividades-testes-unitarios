@@ -5,8 +5,8 @@ import java.util.Scanner;
 import com.marco.CalculodeJuros.Juros;
 
 public class App {
-    public static void main(String[] args) {
- Scanner leitor = new Scanner(System.in);
+public static void main(String[] args) {
+Scanner leitor = new Scanner(System.in);
 double valorP;
 
 try {
@@ -17,7 +17,7 @@ try {
     } catch (IllegalArgumentException e) {
     System.out.println("Erro: " + e.getMessage());
     } catch (Exception e) {
-    System.out.println("Erro: digite apenas números válidos! Em caso de numeros decimias adicione ponto em vez de virgula.");
+    System.out.println("Erro: digite apenas números válidos, incluindo decimais se necessário.");
     } finally {
     leitor.close();
    }

@@ -8,9 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import com.marco.CalculodeJuros.Juros;
 
-/**
- * Unit test for simple App.
- */
+
 class TestedeExcecoes {
 
     @Test
@@ -28,6 +26,13 @@ class TestedeExcecoes {
     void testEntrada_Numeros_Negativos() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> {
             Juros juros = new Juros(-500);
+            juros.valorAlterado();
+        });
+    }
+    @Test
+    void testEntrada_Numeros_Com_Zero() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+            Juros juros = new Juros(0);
             juros.valorAlterado();
         });
     }
