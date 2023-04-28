@@ -52,7 +52,7 @@ import org.junit.jupiter.api.Assertions;
 5. Chame o método media() compare o resultado com expectedMedia usando o método assertEquals() de Assertions.
 
 Farei os seguintes teste nesse codigo.
-- Números inteiros positivos que ja foi feito
+- Números inteiros positivos 
 - Números inteiros negativos
 - Números decimais
 - Números iguais
@@ -94,5 +94,29 @@ Os próximos testes deste exercício ficarão dentro de um outro  [readme](https
 
 10. Por fim, utilizei novamente os métodos "get" para exibir as informações do usuário na tela.
 
-Um [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc2/README.md) com os teste estara disponivel juntos com os arquivos 
+Um [readme](https://github.com/MarcoAntonioMj/atividades-testes-unitarios/blob/main/exerc2/README.md) com os teste estara disponivel juntos com os arquivos
+
+## Exercício de Juros sobre o produto :
+
+- A classe Main é a classe principal do programa que contém o método main, que é o ponto de entrada do programa.
+
+- Dentro do método main, é declarada uma variável valorP que será usada para armazenar o valor do produto.
+
+- Em seguida, é declarada uma constante TAXA_DE_JUROS que representa a taxa de juros a ser aplicada ao valor do produto.
+
+- É criado um objeto Scanner na classe Main que será usado para ler o valor do produto a partir da entrada padrão.
+
+- A classe Juros representa a lógica de cálculo do valor do produto com juros.
+
+- A classe Juros possui um construtor que recebe como parâmetro o valor do produto.
+
+- A classe Juros possui um método valorAlterado que calcula o valor do produto com juros.
+
+- O método valorAlterado da classe Juros utiliza a constante TAXA_DE_JUROS para calcular o valor do produto com juros e retorna o resultado.
+Farei os seguintes teste nesse codigo.
+- Strings deve retorna erro .
+- Valor inteiro positivo
+- Valor inteiro negativos
+- Valor com numeros decimais
+- Valor menor que 0
 
