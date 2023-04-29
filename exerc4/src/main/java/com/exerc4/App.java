@@ -8,7 +8,7 @@ public class App {
         double temp;
         Scanner sc = new Scanner(System.in);
         System.out.println("Sistema de conversão de Fahrenheit para centígrados : ");
-        System.out.println("Informe o valor em Fahrenheit");
+        System.out.print("Informe o valor em Fahrenheit : ");
         temp = sc.nextDouble();
         Calculo calculo = new Calculo(temp);
         System.out.println("o valor de " + temp + "°F" + " " + "é" + " " + Math.round(calculo.celsius()) + "°C");

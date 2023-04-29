@@ -1,5 +1,4 @@
 package com.marco;
-
 import java.util.Scanner;
 
 import com.marco.validador.Validador;

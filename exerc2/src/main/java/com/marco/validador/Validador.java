@@ -1,5 +1,4 @@
 package com.marco.validador;
-
 public class Validador {
     private String cpf;
     private int idade;
