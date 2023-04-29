@@ -11,7 +11,7 @@ public class App {
         System.out.println("Informe o valor em Fahrenheit");
         temp = sc.nextDouble();
         Calculo calculo = new Calculo(temp);
-        System.out.println("o valor de " + temp + "°F" + " " + "é" + " " + calculo.celsius() + "°C");
+        System.out.println("o valor de " + temp + "°F" + " " + "é" + " " + Math.round(calculo.celsius()) + "°C");
         sc.close();
     }
 }
